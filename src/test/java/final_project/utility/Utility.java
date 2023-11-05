@@ -15,11 +15,11 @@ import java.util.List;
 public class Utility extends superClass {
 
     private WebDriverWait getWait() {
-        return new WebDriverWait(getDriver(), Duration.ofSeconds(5));
+        return new WebDriverWait(getDriver(), Duration.ofSeconds(10));
 
     }
 
-    private WebElement getVisibilityOfElement(By locator) {
+    public WebElement getVisibilityOfElement(By locator) {
         return getWait().until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
 
@@ -60,5 +60,6 @@ public class Utility extends superClass {
             String linkText = linkElement.getText();
             System.out.print(linkText);
         }
+
     }}
 

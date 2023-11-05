@@ -2,13 +2,9 @@ package final_project.steps;
 
 import io.cucumber.java.en.And;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
 import final_project.utility.Utility;
 
-import java.util.List;
-
-public class profileValidateInformation extends Utility {
+public class Home_Page extends Utility {
 
 
     @And("click on profile button")

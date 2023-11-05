@@ -9,23 +9,15 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import final_project.utility.Utility;
 
-public class loginToAccount extends Utility {
+public class Create_Account extends Utility {
 
-    @Given("click the login bottom")
-    public void clickTheLoginBottom() {
-        clickButton(pageSteps.loginButton);
-    }
+
 
     @Given("input Username as {string}")
     public void inputUsernameAs(String username) {
         enterValue(pageSteps.userName,username);
 
 
-    }
-
-    @And("input Password as {string}")
-    public void inputPasswordAs(String password) {
-        enterValue(pageSteps.password,password);
 
 
 
@@ -33,7 +25,7 @@ public class loginToAccount extends Utility {
     @And("click on submit Button")
     public void clickOnSubmitButton() throws InterruptedException {
         clickButton(pageSteps.profileButton);
-        Thread.sleep(1000);
+        Thread.sleep(2000);
 
     }
 

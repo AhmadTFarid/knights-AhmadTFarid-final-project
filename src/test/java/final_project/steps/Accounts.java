@@ -8,13 +8,9 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import final_project.utility.Utility;
-import org.openqa.selenium.WebElement;
 
-import java.util.List;
-
-public class createAccount extends Utility {
+public class Accounts extends Utility {
 
 
     @And("fill up the form")

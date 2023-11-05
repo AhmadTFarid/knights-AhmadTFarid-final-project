@@ -4,10 +4,12 @@ import final_project.commendSteps.pageSteps;
 import final_project.utility.Utility;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
+import io.cucumber.java.en.When;
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 
-public class wrong_username_Password extends Utility {
+public class User_Profile extends Utility {
 
 
     @Given("input wrong Username as {string}")
@@ -31,4 +33,5 @@ public class wrong_username_Password extends Utility {
             Thread.sleep(2000);
 
         }}
+
 }
