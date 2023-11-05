@@ -27,6 +27,8 @@
             <version>7.14.0</version>
             <scope>test</scope>
         </dependency>
+
+
         <dependency>
             <!-- Using JUnit 4 with Cucumber -->
             <groupId>io.cucumber</groupId>
@@ -34,8 +36,8 @@
             <version>7.14.0</version>
             <scope>test</scope>
         </dependency>
-    </dependencies>
 
+    </dependencies>
     <build>
         <plugins>
             <plugin>

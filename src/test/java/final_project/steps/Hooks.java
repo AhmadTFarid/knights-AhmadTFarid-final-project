@@ -26,8 +26,6 @@ public class Hooks extends Utility {
     @After
     public void closeWindow( ) {
 
-
-
         endBrowser();
     }
 }
